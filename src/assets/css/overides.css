@@ -1,0 +1,11 @@
+body{
+  margin: 0;
+}
+
+section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-image: url(../images/bg/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
