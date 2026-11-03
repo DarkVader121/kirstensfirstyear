@@ -1,3 +1,18 @@
 @import "tailwindcss";
 
 @import './assets/css/overides.css';
+@import './assets/css/custom.css';
+@import './assets/css/buttons.css';
+
+@theme {
+  --color-primary: #cd597c;
+  /* --color-secondary: #e1bf83;
+  --color-gray: #b3b1b196;
+  --color-darkgray: #313030;
+  --color-lightgray: #f0f0f0c9;
+  --font-heading: "Alex Brush", cursive;
+  --font-body: "Libre Baskerville", serif;
+  --text-2xl: 1.5rem;*/
+  --font-btn-size: 1rem;  
+}
+
