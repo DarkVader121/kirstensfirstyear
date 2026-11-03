@@ -45,7 +45,6 @@ function App() {
         <form className="flex flex-col items-center" onSubmit={handleUnlock}>
           <div className="w-[300px] mt-4">
             <div className="group border border-primary rounded-lg bg-white transition-all duration-200 focus-within:border-primary focus-within:ring-4 focus-within:ring-primary/20">
-
               <label
                 htmlFor="password"
                 className="flex items-center gap-2 px-4 pt-3 text-sm font-semibold text-primary transition-colors group-focus-within:text-primary"
@@ -96,6 +95,12 @@ function App() {
             Unlock for Surprise
           </button>
         </form>
+
+      <div className="fixed bottom-5 w-full text-center flex justify-center items-center gap-2">
+        <button type="button" onClick={() => navigator.clipboard.writeText("surprise123")} class="btn bg-secondary text-white !font-normal">
+          Copy Password
+        </button>
+      </div>
       </section>
     </>
   )
