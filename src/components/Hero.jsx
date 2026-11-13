@@ -3,11 +3,11 @@ import cross from '../assets/images/graphics/cross.png'
 import cake from '../assets/images/graphics/cake.png'
 import baby from '../assets/images/graphics/baby.png'
 
-const Home = () => {
+const Hero = () => {
 
     return (
         <>
-           <section className="h-[100vh] w-[100%] overflow-x-clip !py-0 flex flex-col justify-between">
+           <section className="min-h-[100vh] w-[100%] overflow-x-clip !py-0 flex flex-col justify-between relative">
                 <div>
                     <div className="grid grid-cols-3 w-full justify-between">
                         <div className="col-span-2">
@@ -31,26 +31,17 @@ const Home = () => {
                         <a href="" className="btn btn-primary mt-5">RSVP HERE</a>
                     </div>
                 </div>
-                <div className="position-relative">
+                <div className="relative">
                     <img
                         src={cake}
                         alt=""
-                        className="absolute w-[150px] bottom-0 left-[-12px]"
+                        className="absolute w-[150px] bottom-0 left-[-12px] z-1"
                     />
-                    <img src={baby} alt="" className="position-relative"/>
+                    <img src={baby} alt="" className="w-full block relative"/>
                 </div>
-               
-                {/* <div className="grid grid-cols-1 w-full">
-                    <div className="col-span-1">
-                        <img src={cake} alt="" className="w-full"/>
-                    </div>
-                    <div className="col-span-2">
-                        
-                    </div>
-                </div> */}
            </section>
       </>
     );
 }
 
-export default Home;
+export default Hero;

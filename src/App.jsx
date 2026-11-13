@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import envelope from './assets/images/graphics/envelope.png'
-import { Home } from './routes';
+import { Home } from './page';
 
 function App() {
   const [password, setPassword] = useState('')
