@@ -35,7 +35,7 @@ const Hero = () => {
                     <img
                         src={cake}
                         alt=""
-                        className="absolute w-[150px] bottom-0 left-[-12px] z-1"
+                        className="absolute w-[150px] bottom-[-18px] left-[-12px] z-1"
                     />
                     <img src={baby} alt="" className="w-full block relative"/>
                 </div>

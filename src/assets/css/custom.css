@@ -41,14 +41,14 @@
 
 .bebu-photography{
   img {
-    height: 150px;
+    height: 117px;
     width: 100%;
     object-fit: cover;
     border-radius: 15px;
   }
 
   img.col-span-2{
-    height: 313px;
+    height: 247px;
   }
 }
 

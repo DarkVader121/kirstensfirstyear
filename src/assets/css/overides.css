@@ -5,6 +5,10 @@ body{
 section{
   padding-top: 2rem;
   padding-bottom: 2rem;
+
+}
+
+.clouds-bg{
   background-image: url(../images/bg/1.png);
   background-repeat: no-repeat;
   background-size: cover;
