@@ -38,3 +38,16 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+.bebu-photography{
+  img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  img.col-span-2{
+    height: 313px;
+  }
+}

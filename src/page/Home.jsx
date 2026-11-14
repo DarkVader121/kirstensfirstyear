@@ -1,4 +1,4 @@
-import { Hero,  BirthdayDetails} from '../components';
+import { Hero,  BirthdayDetails, Gallery} from '../components';
 
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
         <div className='flex flex-col overflow-x-clip'>
             <Hero />
             <BirthdayDetails />
+            <Gallery />
         </div>
       </>
     );
