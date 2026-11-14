@@ -50,7 +50,7 @@ const BirthdayDetails = () => {
                 </div>
                 <div className="col-span-2 ps-5">
                     <div className='flex items-center gap-2 ms-[-10px]'>
-                        <img src={balloon} alt="" />
+                        <img src={balloon} alt="" className='h-[63px] ms-[-4px]' />
                         <h3 className='text-2xl'>Birthday <br /> Celebration</h3>
                     </div>
                     <p>The Privè by the Sea in  Vistamar Beach & Residential Estates</p>
