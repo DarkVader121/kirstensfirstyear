@@ -51,3 +51,11 @@
     height: 313px;
   }
 }
+
+.PhotoView-Slider__Backdrop {
+    background: #000000b5 !important;
+}
+
+.PhotoView-Slider__BannerWrap{
+  background-color: rgb(0 0 0 / 36%) !important;
+}
