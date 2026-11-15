@@ -31,7 +31,7 @@ const BirthdayDetails = () => {
                         rel="noopener noreferrer"
                         className="btn btn-primary mt-3 w-max"
                     >
-                        Get Google Maps Location
+                        Get Location
                     </a>
                     <div className='w-full flex justify-end'>
                         <img src={stars} alt="" className='mt-10 me-[-50px]' />
@@ -61,7 +61,7 @@ const BirthdayDetails = () => {
                         rel="noopener noreferrer"
                         className="btn btn-primary mt-3 w-max"
                     >
-                        Get Google Maps Location
+                        Get Location
                     </a>
                     <div className='w-full flex justify-end'>
                         <img src={smallCircle} alt="" className='mt-10' />
