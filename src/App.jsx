@@ -4,20 +4,25 @@ import envelope from './assets/images/graphics/envelope.png'
 import { Home } from './page';
 
 function App() {
-  const [password, setPassword] = useState('')
+ const [password, setPassword] = useState('')
   const [error, setError] = useState('')
-  const [isUnlocked, setIsUnlocked] = useState(
-    localStorage.getItem('surpriseUnlocked') === 'true'
-  )
 
-  // Change this to your desired password
-  const correctPassword = 'surprise123'
+  // Change these whenever you update your password
+  const correctPassword = 'SuperSurprise143'
+  const passwordVersion = '4'
+
+  const isAuthenticated =
+    localStorage.getItem('surpriseUnlocked') === 'true' &&
+    localStorage.getItem('passwordVersion') === passwordVersion
+
+  const [isUnlocked, setIsUnlocked] = useState(isAuthenticated)
 
   const handleUnlock = (e) => {
     e.preventDefault()
 
     if (password === correctPassword) {
       localStorage.setItem('surpriseUnlocked', 'true')
+      localStorage.setItem('passwordVersion', passwordVersion)
 
       setIsUnlocked(true)
       setError('')
@@ -27,9 +32,7 @@ function App() {
   }
 
   if (isUnlocked) {
-    return (
-      <Home />
-    )
+    return <Home />
   }
 
   return (
@@ -96,11 +99,11 @@ function App() {
           </button>
         </form>
 
-      <div className="fixed bottom-5 w-full text-center flex justify-center items-center gap-2">
-        <button type="button" onClick={() => navigator.clipboard.writeText("surprise123")} class="btn bg-secondary text-white !font-normal">
+      {/* <div className="fixed bottom-5 w-full text-center flex justify-center items-center gap-2">
+        <button type="button" onClick={() => navigator.clipboard.writeText("SuperSurprise123")} class="btn bg-secondary text-white !font-normal">
           Copy Password
         </button>
-      </div>
+      </div> */}
       </section>
     </>
   )

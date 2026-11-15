@@ -59,7 +59,7 @@ const Gallery = () => {
     };
     return (
         <>
-            <section>
+            <section className="!pt-0">
                 <div className="container">
                     <h1 className="text-4xl mb-5">First Birthday Photography</h1>
                      <PhotoProvider>

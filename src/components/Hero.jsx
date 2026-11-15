@@ -23,11 +23,16 @@ const Hero = () => {
                     </div>
                     <div className="container">
                         <p className="mt-[-2rem]">Join us as we celebrate</p>
-                        <h1 className="mt-5 text-5xl">Kirsten's</h1>
+                        <h1 className="mt-5 text-5xl bebu-ribbon">Kirsten's</h1>
                         <h1 className="text-3xl">Baptism & 1st Birthday</h1>
                         <p className="mt-3 pe-5">
                             With hearts full of love and gratitude, we invite you to celebrate a very special day as our little girl receives her first blessing and turns ONE!
                         </p>
+
+                
+                        <h1 class="text-xl mt-5">Save the Date:  </h1>
+                        <p class=""> January 22, 2027 @ 2:00pm</p>
+
                         <a href="" className="btn btn-primary mt-5">RSVP HERE</a>
                     </div>
                 </div>

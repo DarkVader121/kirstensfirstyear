@@ -35,8 +35,8 @@
 }
 
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
 }
 
 .bebu-photography{
@@ -58,4 +58,22 @@
 
 .PhotoView-Slider__BannerWrap{
   background-color: rgb(0 0 0 / 36%) !important;
+}
+
+.bebu-ribbon {
+  position: relative;
+
+  &::before{
+    content: "";
+    position: absolute;
+    background-image: url("../images/graphics/ribbon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 34px;
+    height: 20px;
+    top: -10px;
+    left: -15px;
+    transform: rotate(-15deg);
+  }
 }
