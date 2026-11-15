@@ -25,7 +25,14 @@ const BirthdayDetails = () => {
                 <div className="col-span-2">
                     <h3 className='text-2xl mt-5'>Church Location</h3>
                     <p>Archdiocesan Shrine of St. Thérèse of the Child Jesus</p>
-                    <a href=""className='btn btn-primary mt-3 w-max'>Get Gooogle Maps Location</a>
+                    <a
+                        href="https://maps.app.goo.gl/3XhTn46iuSzNBEzW8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary mt-3 w-max"
+                    >
+                        Get Google Maps Location
+                    </a>
                     <div className='w-full flex justify-end'>
                         <img src={stars} alt="" className='mt-10 me-[-50px]' />
                     </div>
@@ -48,7 +55,14 @@ const BirthdayDetails = () => {
                         <h3 className='text-2xl'>Birthday <br /> Celebration</h3>
                     </div>
                     <p className='me-1'>The Privè by the Sea in  Vistamar Beach & Residential Estates</p>
-                    <a href=""className='btn btn-primary mt-3 !w-max'>Get Gooogle Maps Location</a>
+                     <a
+                        href="https://maps.app.goo.gl/hWZRCUvzURDy4P2A7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn btn-primary mt-3 w-max"
+                    >
+                        Get Google Maps Location
+                    </a>
                     <div className='w-full flex justify-end'>
                         <img src={smallCircle} alt="" className='mt-10' />
                     </div>
