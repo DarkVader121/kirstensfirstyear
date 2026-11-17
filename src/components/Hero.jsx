@@ -33,7 +33,7 @@ const Hero = () => {
                         <h1 class="text-xl mt-5">Save the Date:  </h1>
                         <p class=""> January 22, 2027 @ 2:00pm</p>
 
-                        <a href="" className="btn btn-primary mt-5">RSVP HERE</a>
+                        <a href="https://forms.gle/aYVjbot6cL8jdvyX9" className="btn btn-primary mt-5">RSVP HERE</a>
                     </div>
                 </div>
                 <div className="relative">

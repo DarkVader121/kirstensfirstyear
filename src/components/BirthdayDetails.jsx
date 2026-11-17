@@ -8,8 +8,6 @@ import smallCircle from '../assets/images/graphics/small-circle.png'
 
 const BirthdayDetails = () => {
 
-
-
     return (
         <>
         <section className="block min-h-[80vh]">
