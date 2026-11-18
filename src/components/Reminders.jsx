@@ -3,7 +3,7 @@ import reminder1 from '../assets/images/graphics/reminder-1.png'
 import reminder2 from '../assets/images/graphics/reminder-2.png'
 import reminder3 from '../assets/images/graphics/reminder-3.png'
 // import reminder4 from '../assets/images/graphics/reminder-4.png'
-import reminder5 from '../assets/images/graphics/reminder-5.png'
+// import reminder5 from '../assets/images/graphics/reminder-5.png'
 import feet from '../assets/images/graphics/feet.png'
 import poolSign from '../assets/images/graphics/pool-sign.png'
 
@@ -93,7 +93,7 @@ const Reminders = () => {
 
                     </div>
                 </div>
-                <div className="grid grid-cols-2 mt-5">
+                {/* <div className="grid grid-cols-2 mt-5">
                     <div className='flex flex-col justify-center pe-1 ms-5'>
                     <h3 className='text-2xl'>Capture the Memories</h3>
                         <p>Take photos and videos throughout the celebration and share your precious moments with us through our shared photo album. </p>
@@ -109,7 +109,7 @@ const Reminders = () => {
                          <img src={reminder5} alt="" className='h-[200px]'/>
                        
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="grid grid-cols-2 pb-7">
                     <div className='flex'>
                          <img src={reminder4} alt="" className='h-[200px]'/>
