@@ -31,13 +31,25 @@ function App() {
     }
   }
 
-  if (isUnlocked) {
-    return <Home />
-  }
+if (isUnlocked) {
+    return (
+        <>
+            <div className="block md:hidden">
+               <Home />
+            </div>
+
+            <section className="hidden md:flex">
+              <div className="container">
+                <h1>This site is only for mobile view. Thank you.</h1>
+              </div>
+            </section>
+        </>
+    );
+}
 
   return (
     <>
-      <section className="h-[100vh] flex flex-col justify-center items-center">
+      <section className="h-[100vh] flex flex-col justify-center items-center md:hidden">
         <div>
           <h1 className="text-5xl">Surprise</h1>
           <h2 className="text-5xl ms-6">Awaits</h2>
@@ -105,6 +117,12 @@ function App() {
         </button>
       </div> */}
       </section>
+      
+    <section className="hidden md:flex">
+      <div className="container">
+         <h1>This site is only for mobile view. Thank you.</h1>
+      </div>
+    </section>
     </>
   )
 }
